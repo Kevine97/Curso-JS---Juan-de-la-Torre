@@ -33,7 +33,7 @@ function inicarApp() {
 }
 //Valida el formulario
 function validarFormulario(e) {
-  console.log(e.target.value.length);
+  console.log(e.target.value);
   if (e.target.value.length > 0) {
     //Elimina los errores
     const error = document.querySelector("p.error");

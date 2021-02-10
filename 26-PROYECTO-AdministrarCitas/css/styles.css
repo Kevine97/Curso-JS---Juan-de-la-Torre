@@ -50,3 +50,7 @@ textarea {
 svg {
   width: 21px;
 }
+
+.titulo{
+  font-size: calc(1em + 1.3vw)
+}
